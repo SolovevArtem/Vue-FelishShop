@@ -28,8 +28,8 @@ export default {
 
 .container {
   max-width: 1307px;
-  margin: 0px auto;
-  border: 2px dashed black;
+  margin: -1px auto;
+  
   
 }
 

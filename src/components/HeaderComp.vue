@@ -25,26 +25,24 @@ export default {
 <style scoped>
 .HeaderComp {
 }
-.HeaderComp__container {
-}
+
 .HeaderComp__row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
 }
 .HeaderComp__nav_left {
-   
-    
-    
+  margin-top: 39px;
+  margin-bottom: auto;
+  flex-wrap: nowrap;
 }
+
 .HeaderComp__nav_left > .lookbook {
-   margin-left: 15px;
-  
-    
+  margin-left: 15px;
 }
 .nav {
 }
 .nav__item {
-    
 }
 .nav__brand {
   font-family: "Selna";
@@ -55,13 +53,15 @@ export default {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-right: 388px;
-  margin-left: 363px;
+  padding-right: 388px;
+  padding-left: 363px;
 }
 .HeaderComp__nav_right {
+  margin-top: 39px;
+  margin-bottom: auto;
 }
 
-.HeaderComp__nav_right > .search{
-   margin-right: 30px;
+.HeaderComp__nav_right > .search {
+  margin-right: 30px;
 }
 </style>
