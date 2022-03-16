@@ -1,17 +1,20 @@
 <template>
   <div class="wrapper">
     <HeaderComp> </HeaderComp>
+    <TitleComp></TitleComp>
   </div>
 </template>
 
 <script>
 import HeaderComp from "./components/HeaderComp.vue";
+import TitleComp from "./components/TitleComp.vue";
 
 export default {
   name: "App",
   components: {
     HeaderComp,
-  },
+    TitleComp
+},
 };
 </script>
 
@@ -22,14 +25,19 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  margin: -7px -10px;
+}
+
+
 * {
   background: #f1eae4;
 }
 
 .container {
-  max-width: 1307px;
-  margin: -1px auto;
-  
+  max-width: 1200px;
+  margin: auto auto;
+  border: 2px solid black;
   
 }
 

@@ -24,6 +24,9 @@ export default {
 
 <style scoped>
 .HeaderComp {
+  position: fixed;
+  align-items: center;
+  width: 100%;
 }
 
 .HeaderComp__row {
