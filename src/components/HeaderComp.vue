@@ -6,7 +6,7 @@
           <a class="nav__item shopnow">SHOP NOW</a>
           <a class="nav__item lookbook">LOOKBOOK</a>
         </nav>
-        <div class="nav__brand">Felis</div>
+        <div class="nav__brand">FELIS</div>
         <nav class="HeaderComp__nav_right nav">
           <a class="nav__item search">SEARCH</a>
           <a class="nav__item cart">CART</a>
@@ -24,9 +24,7 @@ export default {
 
 <style scoped>
 .HeaderComp {
-  position: fixed;
-  align-items: center;
-  width: 100%;
+  
 }
 
 .HeaderComp__row {
@@ -41,14 +39,14 @@ export default {
 }
 
 .HeaderComp__nav_left > .lookbook {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .nav {
 }
 .nav__item {
 }
 .nav__brand {
-  font-family: "Selna";
+  font-family: sel;
   font-style: normal;
   font-weight: 400;
   font-size: 52.9025px;
@@ -57,7 +55,7 @@ export default {
   align-items: center;
   text-align: center;
   padding-right: 388px;
-  padding-left: 363px;
+  padding-left: 320px;
 }
 .HeaderComp__nav_right {
   margin-top: 39px;

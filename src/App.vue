@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <HeaderComp> </HeaderComp>
-    <TitleComp></TitleComp>
+    <HeaderComp class="HeaderComp"> </HeaderComp>
+    <TitleComp class="TitleComp"></TitleComp>
   </div>
 </template>
 
@@ -13,22 +13,22 @@ export default {
   name: "App",
   components: {
     HeaderComp,
-    TitleComp
-},
+    TitleComp,
+  },
 };
 </script>
 
 <style>
+/* GENERAL */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-html{
+html {
   margin: -7px -10px;
 }
-
 
 * {
   background: #f1eae4;
@@ -37,8 +37,6 @@ html{
 .container {
   max-width: 1200px;
   margin: auto auto;
-  border: 2px solid black;
-  
 }
 
 .wrapper {
@@ -46,6 +44,11 @@ html{
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  
+}
+/* COMPONENTS */
+.HeaderComp {
+  display: flex;
+
+  width: 100%;
 }
 </style>
