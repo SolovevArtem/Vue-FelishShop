@@ -3,7 +3,7 @@
     <div class="container">
       <div class="FavourComp__row">
         <div class="FavourComp_header">
-          <div class="FavourComp__title pgTitle">OUR FAVOURITE</div>
+          <div class="FavourComp__title pgTitle">OUR FAVOURITES</div>
           <a class="FavourComp__seeall smlButton">SEE ALL</a>
         </div>
         <div class="FavourComp__line1">
@@ -59,7 +59,7 @@ export default {
 .FavourComp__title {
   display: flex;
   flex: 1 1 auto;
-  margin-right: 873px;
+  margin-right: 850px;
 }
 
 .FavourComp__seeall {
@@ -79,10 +79,7 @@ export default {
 }
 .card__img1 {
 }
-.img > * {
-  height: 524px;
-  width: 422px;
-}
+
 .img1 {
 }
 .card__itemName {
@@ -99,7 +96,6 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 .FavourComp__card3 {
 }
