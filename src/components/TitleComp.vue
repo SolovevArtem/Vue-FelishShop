@@ -38,7 +38,7 @@ export default {
   flex-direction: column;
   flex: 1 1 50%;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .TitleComp__title {
   font-family: sel;
@@ -47,16 +47,29 @@ export default {
   font-size: 62.844px;
   line-height: 80px;
   text-align: center;
+  margin-top: 26px;
 }
 .TitleComp__shopnow {
+  margin-top: 38px;
+  text-decoration: underline;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20.1783px;
+  line-height: 25px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .bigImg {
   height: 800px;
   width: 720px;
+  max-height: 100%;
 }
 
 .star {
-    margin-bottom: 125px;
+  margin-top: 197px;
 }
 </style>
