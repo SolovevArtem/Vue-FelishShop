@@ -30,6 +30,7 @@ export default {
 
 <style scoped>
 .SectionsComp {
+    margin-top: 103px;
 }
 .container {
 }
@@ -39,10 +40,12 @@ export default {
   justify-content: space-evenly;
 }
 .SectionsComp__Col1 {
+   
 }
 .img {
   width: 332px;
-  height: 463px;
+  /* height: 463px; */
+  
 }
 .SectionsComp__Col2 {
   font-family: "Selna";
@@ -54,7 +57,10 @@ export default {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+  
+  margin-top: 127px;
 }
 .SectionsComp__Col3 {
+    margin-top: 271px;
 }
 </style>

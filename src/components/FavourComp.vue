@@ -83,8 +83,23 @@ export default {
 .img1 {
 }
 .card__itemName {
+  margin-top: 22px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
 }
 .card__itemPrice {
+  margin-top: 2px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.2035px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+  color: rgba(29, 27, 25, 0.72);
 }
 .FavourComp__card2 {
 }
