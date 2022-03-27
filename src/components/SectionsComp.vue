@@ -6,7 +6,9 @@
           <img src="../assets/image3.png" alt="" class="img" />
         </div>
         <div class="SectionsComp__Col2">
+          
           <ul>
+            <li class="sections">Sections</li>
             <li>JEWLERY</li>
             <li>HANDBAGS</li>
             <li>SWEATERS</li>
@@ -62,5 +64,9 @@ export default {
 }
 .SectionsComp__Col3 {
     margin-top: 271px;
+}
+.sections {
+  margin-top: -170px;
+  margin-bottom: 170px;
 }
 </style>

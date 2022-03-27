@@ -6,6 +6,8 @@
     <TitleComp class="TitleComp"></TitleComp>
     <FavourComp class="FavourComp"></FavourComp>
     <SectionsComp class="SectionsComp"></SectionsComp>
+    <AboutUsComp class="AboutUsComp"></AboutUsComp>
+    <SignUpComp class="SignUpCom"></SignUpComp>
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import HeaderComp from "./components/HeaderComp.vue";
 import TitleComp from "./components/TitleComp.vue";
 import FavourComp from "./components/FavourComp";
 import SectionsComp from "./components/SectionsComp"
+import AboutUsComp from "./components/AboutUsComp.vue";
+import SignUpComp from "./components/SignUpComp.vue";
 
 export default {
   name: "App",
@@ -21,7 +25,9 @@ export default {
     HeaderComp,
     TitleComp,
     FavourComp,
-    SectionsComp
+    SectionsComp,
+    AboutUsComp,
+    SignUpComp
   },
 };
 </script>
