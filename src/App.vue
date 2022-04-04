@@ -7,7 +7,8 @@
     <FavourComp class="FavourComp"></FavourComp>
     <SectionsComp class="SectionsComp"></SectionsComp>
     <AboutUsComp class="AboutUsComp"></AboutUsComp>
-    <SignUpComp class="SignUpCom"></SignUpComp>
+    <SignUpComp class="SignUpComp"></SignUpComp>
+  <InstagramComp class="InstagramComp"></InstagramComp>
   </div>
 </template>
 
@@ -18,7 +19,7 @@ import FavourComp from "./components/FavourComp";
 import SectionsComp from "./components/SectionsComp"
 import AboutUsComp from "./components/AboutUsComp.vue";
 import SignUpComp from "./components/SignUpComp.vue";
-
+import InstagramComp from "./components/InstagramComp.vue";
 export default {
   name: "App",
   components: {
@@ -27,7 +28,8 @@ export default {
     FavourComp,
     SectionsComp,
     AboutUsComp,
-    SignUpComp
+    SignUpComp,
+    InstagramComp
   },
 };
 </script>
