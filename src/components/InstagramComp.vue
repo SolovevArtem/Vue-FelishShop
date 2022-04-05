@@ -3,7 +3,9 @@
     <div class="container">
       <div class="inst__Row">
         <div class="inst__topbox">
-          <div class="inst__title title"></div>
+           <img class="star" src="../assets/Polygon2.svg" alt="" />
+          <div class="inst__title pgTitle">FOLLOW US ON INSTAGRAM</div>
+           <img class="star" src="../assets/Polygon2.svg" alt="" />
         </div>
         <div class="inst__botbox">
           <img class="img1" src="../assets/Rectangle7.png" alt="" />
@@ -19,4 +21,33 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.InstagramCom {
+  margin-top:104px;
+}
+.container {
+}
+.inst__Row {
+  display: flex;
+  flex-direction: column;
+}
+.inst__topbox {
+  display:inline-flex;
+  justify-content: center;
+  
+}
+.inst__title {
+}
+.title {
+}
+.inst__botbox {
+
+}
+
+.img1 {
+}
+.img2 {
+  margin: 0 20px;
+}
+.img3 {
+}</style>
