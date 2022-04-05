@@ -8,7 +8,8 @@
     <SectionsComp class="SectionsComp"></SectionsComp>
     <AboutUsComp class="AboutUsComp"></AboutUsComp>
     <SignUpComp class="SignUpComp"></SignUpComp>
-  <InstagramComp class="InstagramComp"></InstagramComp>
+    <div id="line"><hr /></div>
+    <InstagramComp class="InstagramComp"></InstagramComp>
   </div>
 </template>
 
@@ -16,7 +17,7 @@
 import HeaderComp from "./components/HeaderComp.vue";
 import TitleComp from "./components/TitleComp.vue";
 import FavourComp from "./components/FavourComp";
-import SectionsComp from "./components/SectionsComp"
+import SectionsComp from "./components/SectionsComp";
 import AboutUsComp from "./components/AboutUsComp.vue";
 import SignUpComp from "./components/SignUpComp.vue";
 import InstagramComp from "./components/InstagramComp.vue";
@@ -29,7 +30,7 @@ export default {
     SectionsComp,
     AboutUsComp,
     SignUpComp,
-    InstagramComp
+    InstagramComp,
   },
 };
 </script>
@@ -164,5 +165,18 @@ html {
 .img > * {
   height: 524px;
   width: 422px;
+}
+
+#line {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  
+}
+hr {
+  width: 80%;
+  background-color: black;
+  height: 1px;
+  margin: 0 auto;
 }
 </style>

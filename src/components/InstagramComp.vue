@@ -41,7 +41,7 @@ export default {};
 .title {
 }
 .inst__botbox {
-
+margin-top: 55px;
 }
 
 .img1 {
