@@ -174,7 +174,7 @@ html {
   
 }
 hr {
-  width: 80%;
+  width: 35%;
   background-color: black;
   height: 1px;
   margin: 0 auto;
